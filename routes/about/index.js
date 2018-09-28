@@ -1,0 +1,13 @@
+const router = require('express').Router();
+const AboutController = require('../../controllers/about.controller');
+// const all = require('./all');
+
+// aboutdata.get('/', all);
+// module.exports = aboutdata;
+
+// Set default API response
+router.get('/', AboutController.getAboutData);
+router.get('/info', AboutController.test);
+
+// Export API routes
+module.exports = router;
