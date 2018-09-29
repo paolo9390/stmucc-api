@@ -8,6 +8,7 @@ const AboutController = require('../../controllers/about.controller');
 // Set default API response
 router.get('/', AboutController.getAboutData);
 router.get('/info', AboutController.test);
+router.post('/create', AboutController.postAbout);
 
 // Export API routes
 module.exports = router;
