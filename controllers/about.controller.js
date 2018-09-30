@@ -1,7 +1,6 @@
 // load response
 const responseformat = require('../services/response.service');
 const About = require('../models/about.model');
-const data = require('../data.json');
 
 // Create endpoint for /about
 exports.getAboutData = function(req, res) {

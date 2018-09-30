@@ -6,6 +6,8 @@ let express = require('express');
 let app = express();
 
 // Setup server port
+let http = require('http');
+let https = require('https');
 var port = process.env.PORT || 8080;
 
 // Set up mongoose connection
@@ -19,9 +21,11 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 
 // Launch app to listen to specified port
-app.listen(port, function () {
-     console.log("Running StMUCC RestAPI on port " + port);
-});
+// app.listen(port, function () {
+//      console.log("Running StMUCC RestAPI on port " + port);
+// });
+http.createServer(app).listen(port, "0.0.0.0")
+https.createServer(app).listen("8081", "0.0.0.0")
 
 // Setup bodyParser
 var bodyParser = require('body-parser');
