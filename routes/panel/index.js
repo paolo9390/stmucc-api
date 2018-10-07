@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const CardController = require('../../controllers/card.controller');
+const PanelController = require('../../controllers/panel.controller');
 
 const cors = require('cors')
 
 // Set default API response
-router.get('/', cors(), CardController.getCards);
+router.get('/', cors(), PanelController.getPanels);
 
 // Export API routes
 module.exports = router;

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-let CardSchema = new Schema({
+let PanelSchema = new Schema({
     _id: { type: Number},
     title: { type: String, required: true},
     subtitle: { type: String, required: false },
@@ -14,4 +14,4 @@ let CardSchema = new Schema({
 });
 
 // Export the model
-module.exports = mongoose.model('cards', CardSchema);
+module.exports = mongoose.model('panels', PanelSchema);
