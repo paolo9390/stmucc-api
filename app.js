@@ -5,6 +5,9 @@ let express = require('express');
 // Initialize the app
 let app = express();
 
+// add cors
+const cors = require('cors')
+
 // Setup server port
 let http = require('http');
 let https = require('https');
@@ -19,6 +22,10 @@ mongoose.Promise = global.Promise;
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
+// allow cross origin requests from STMUCC CLIENT
+app.use(cors({
+    origin: 'http://localhost:4200'
+}));
 
 // Launch app to listen to specified port
 // app.listen(port, function () {
