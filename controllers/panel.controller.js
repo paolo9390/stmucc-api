@@ -1,5 +1,6 @@
 // load response
 const Panel = require('../models/panel.model');
+const jsonPanels = require('../data/panels.json');
 
 // Create endpoint for /panels
 exports.getPanels = function(req, res) {
@@ -10,4 +11,8 @@ exports.getPanels = function(req, res) {
         }
         res.json(panels);
     });
+}
+
+exports.getPanelsLocally = function(req, res) {
+    res.json(jsonPanels);
 }
