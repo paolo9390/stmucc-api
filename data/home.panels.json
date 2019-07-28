@@ -1,14 +1,15 @@
 [{
     "items": [],
     "_id": 1,
-    "title": "Appeals",
+    "title": "My Health Programme",
     "subtitle": "",
-    "text": "Find out about volunteering, fundraising or taking part in an event",
-    "img": "/assets/img/appeals.jpg",
+    "text": "Our project to address the gaps in healthcare provision with seven new state-of-the-art facilities is well underway.",
+    "img": "/assets/img/projects/kimi.jpg",
     "button": "Find out more",
-    "url": "/appeals",
+    "url": "/projects/my-health--sehaty--programme",
     "standard": true
-}, {
+  },
+  {
     "items": [],
     "_id": 2,
     "title": "Gold Card",
@@ -18,34 +19,54 @@
     "button": "Apply for a card",
     "url": "/support/gold-card",
     "standard": true
-}, {
-    "items": [{
-        "name": "Operations",
-        "value": "1231",
+  },
+  {
+    "items": [
+      {
+        "name": "Healthcare Centres",
+        "value": "3",
+        "icon": "child_care"
+      },
+      {
+        "name": "Polyclinic",
+        "value": "1",
         "icon": "local_hospital"
-    }, {
+      },
+      {
+        "name": "Operations",
+        "value": "1,804",
+        "icon": "healing"
+      },
+      {
         "name": "Prescriptions",
-        "value": "409312",
+        "value": "58,719",
         "icon": "local_pharmacy"
-    }],
+      },
+      {
+        "name": "Mobility and Medical devices",
+        "value": "4,345",
+        "icon": "accessible"
+      }
+    ],
     "_id": 3,
-    "title": "Our progress",
+    "title": "Building better health",
     "subtitle": "",
-    "text": "Learn more about the work we do and help us to treat illnesses and perform medical operations",
+    "text": "Our healthcare projects are creating new facilities and medical provision. To date we have provided:",
     "button": "Donate",
-    "url": "/support/donations",
+    "url": "/support/donate",
     "standard": false
-}, {
+  },
+  {
     "items": [],
     "_id": 4,
-    "title": "News",
+    "title": "Phoenix Project",
     "subtitle": "",
     "img": "/assets/img/phoenix.jpg",
-    "text": "Read the latest news about our support",
+    "text": "We are refurbishing independent living aids for people with chronic health conditions",
     "button": "Read more",
-    "url": "/news",
+    "url": "/projects/the-phoenix-project",
     "standard": true
-}, {
+  }, {
     "items": [],
     "_id": 5,
     "title": "Get Involved",
@@ -53,9 +74,9 @@
     "img": "/assets/img/getinvolved.jpg",
     "text": "Find out about volunteering, fundraising or taking part in an event",
     "button": "Get involved",
-    "url": "/support/getinvolved",
+    "url": "/support/fundraising",
     "standard": true
-}, {
+  }, {
     "items": [],
     "_id": 6,
     "title": "Mission trips",
@@ -65,4 +86,5 @@
     "button": "Get on a trip",
     "url": "/volunteer/overseas",
     "standard": true
-}]
+  }
+]

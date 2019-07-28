@@ -1,0 +1,38 @@
+[
+  {
+    "name": "About Us",
+    "link": "./about",
+    "sublist": [
+      {
+      "name": "Donate",
+      "link": "./support/donate"
+      },
+      {
+        "name": "Volunteer",
+        "link": "./volunteer"
+      },
+      {
+        "name": "Youth Mission",
+        "link": "./about/what-we-do"
+      }
+    ]
+  },
+  {
+    "name": "Contact Us",
+    "link": "./connect",
+    "sublist": [
+      {
+      "name": "Support",
+      "link": "./support"
+      },
+      {
+        "name": "Annual Reports",
+        "link": "./about/annual-reports"
+      },
+      {
+        "name": "MoneyGiving",
+        "link": "https://uk.virginmoneygiving.com/charities/stmarkuniversalcoptscare"
+      }
+    ]
+  }
+]
