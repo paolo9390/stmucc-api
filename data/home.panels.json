@@ -1,90 +1,90 @@
 [{
-    "items": [],
-    "_id": 1,
-    "title": "My Health Programme",
-    "subtitle": "",
-    "text": "Our project to address the gaps in healthcare provision with seven new state-of-the-art facilities is well underway.",
-    "img": "/assets/img/projects/kimi.jpg",
-    "button": "Find out more",
-    "url": "/projects/my-health--sehaty--programme",
-    "standard": true
-  },
-  {
-    "items": [],
-    "_id": 2,
-    "title": "Gold Card",
-    "subtitle": "",
-    "text": "Receive exclusive offers and perks for as little as £10 a month which will pay for a patient in the Middle East's prescription medication",
-    "img": "/assets/img/goldcard.jpg",
-    "button": "Apply for a card",
-    "url": "/support/gold-card",
-    "standard": true
-  },
-  {
-    "items": [
-      {
-        "name": "Healthcare Centres",
-        "value": "3",
-        "icon": "child_care"
-      },
-      {
-        "name": "Polyclinic",
-        "value": "1",
-        "icon": "local_hospital"
-      },
-      {
-        "name": "Operations",
-        "value": "1,896",
-        "icon": "healing"
-      },
-      {
-        "name": "Prescriptions",
-        "value": "63,772",
-        "icon": "local_pharmacy"
-      },
-      {
-        "name": "Mobility and Medical devices",
-        "value": "4,345",
-        "icon": "accessible"
-      }
-    ],
-    "_id": 3,
-    "title": "Building better health",
-    "subtitle": "",
-    "text": "Our healthcare projects are creating new facilities and medical provision. To date we have provided:",
-    "button": "Donate",
-    "url": "/support/donate",
-    "standard": false
-  },
-  {
-    "items": [],
-    "_id": 4,
-    "title": "Phoenix Project",
-    "subtitle": "",
-    "img": "/assets/img/phoenix.jpg",
-    "text": "We are refurbishing independent living aids for people with chronic health conditions",
-    "button": "Read more",
-    "url": "/projects/the-phoenix-project",
-    "standard": true
-  }, {
-    "items": [],
-    "_id": 5,
-    "title": "Get Involved",
-    "subtitle": "",
-    "img": "/assets/img/getinvolved.jpg",
-    "text": "Find out about volunteering, fundraising or taking part in an event",
-    "button": "Get involved",
-    "url": "/support/fundraising",
-    "standard": true
-  }, {
-    "items": [],
-    "_id": 6,
-    "title": "Mission trips",
-    "subtitle": "",
-    "img": "/assets/img/summermission.jpg",
-    "text": "Apply now to come on our Summer Mission to Egypt, helping youngsters learn English",
-    "button": "Get on a trip",
-    "url": "/volunteer/overseas",
-    "standard": true
-  }
+  "items": [],
+  "_id": 1,
+  "title": "My Health Programme",
+  "subtitle": "",
+  "text": "Our project to address the gaps in healthcare provision with seven new state-of-the-art facilities is well underway.",
+  "img": "/assets/img/projects/kimi.jpg",
+  "button": "Find out more",
+  "url": "/projects/my-health--sehaty--programme",
+  "standard": true
+},
+{
+  "items": [],
+  "_id": 2,
+  "title": "Gold Card",
+  "subtitle": "",
+  "text": "Receive exclusive offers and perks for as little as £10 a month which will pay for a patient in the Middle East's prescription medication",
+  "img": "/assets/img/goldcard.jpg",
+  "button": "Apply for a card",
+  "url": "/support/gold-card",
+  "standard": true
+},
+{
+  "items": [
+    {
+      "name": "Healthcare Centres",
+      "value": "3",
+      "icon": "child_care"
+    },
+    {
+      "name": "Polyclinic",
+      "value": "1",
+      "icon": "local_hospital"
+    },
+    {
+      "name": "Operations",
+      "value": "1,896",
+      "icon": "healing"
+    },
+    {
+      "name": "Prescriptions",
+      "value": "63,772",
+      "icon": "local_pharmacy"
+    },
+    {
+      "name": "Mobility and Medical devices",
+      "value": "4,345",
+      "icon": "accessible"
+    }
+  ],
+  "_id": 3,
+  "title": "Building better health",
+  "subtitle": "",
+  "text": "Our healthcare projects are creating new facilities and medical provision. To date we have provided:",
+  "button": "Donate",
+  "url": "/support/donate",
+  "standard": false
+},
+{
+  "items": [],
+  "_id": 4,
+  "title": "Phoenix Project",
+  "subtitle": "",
+  "img": "/assets/img/phoenix.jpg",
+  "text": "We are refurbishing independent living aids for people with chronic health conditions",
+  "button": "Read more",
+  "url": "/projects/the-phoenix-project",
+  "standard": true
+}, {
+  "items": [],
+  "_id": 5,
+  "title": "Get Involved",
+  "subtitle": "",
+  "img": "/assets/img/getinvolved.jpg",
+  "text": "Find out about volunteering, fundraising or taking part in an event",
+  "button": "Get involved",
+  "url": "/support/fundraising",
+  "standard": true
+}, {
+  "items": [],
+  "_id": 6,
+  "title": "Mission trips",
+  "subtitle": "",
+  "img": "/assets/img/summermission.jpg",
+  "text": "Apply now to come on our Winter Mission to Egypt, giving orphans a memorable Christmas time",
+  "button": "Get on a trip",
+  "url": "/volunteer/overseas",
+  "standard": true
+}
 ]
